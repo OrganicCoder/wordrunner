@@ -1,0 +1,6 @@
+cactus:03A9F400
+fire:F4433600
+limbo:3351E200
+river:45009600
+shark:3F51B500
+tree:2196F300

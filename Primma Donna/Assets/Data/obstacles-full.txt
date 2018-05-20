@@ -1,0 +1,10 @@
+river:vessel
+quicksand:bridge
+fire:water
+glacier:sled
+dinosaur:nourish
+wolf:full moon
+shark:shelter
+hail:umbrella
+tree:hew
+cactus:shear

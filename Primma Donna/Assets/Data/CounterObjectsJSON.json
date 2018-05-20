@@ -1,0 +1,30 @@
+﻿{
+  "vessel": {
+    "definition": "a ship or large boat",
+    "sentence": "The captain sailed on his vessel",
+    "synonyms": [
+      "boat",
+      "ship"
+    ],
+    "rank": 974,
+    "gradeLevel": "Elementary"
+  },
+  "water": {
+    "definition": "a clear liquid without smell, or taste",
+    "sentence": "A tall glass of water",
+    "synonyms": [
+      "aqua"
+    ],
+    "rank": 237,
+    "gradeLevel": "Elementary"
+  },
+  "defenestrate": {
+    "definition": "throw (someone) out of a window",
+    "sentence": "She got defenestrated from the second story window",
+    "synonyms": [
+      "throw"
+    ],
+    "rank": 0,
+    "gradeLevel": "Graduate"
+  }
+}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu Scene.unity
+    guid: 5068b8ebdf22544cf82754e5464af218
+  - enabled: 1
+    path: Assets/Scenes/Words Scene v0.0005.unity
+    guid: 51fe614273d7d44779933ea4109820ab
+  - enabled: 1
+    path: Assets/Scenes/Start Scene.unity
+    guid: 027be74c757dd4a3898011c0f813c284
+  - enabled: 1
+    path: Assets/Scenes/Cactus Scene.unity
+    guid: 16f71be5944194539bfb19ca6e0f2529
+  - enabled: 1
+    path: Assets/Scenes/Fire Scene.unity
+    guid: 99602948f245544f4aa94aa8d6b38e82
+  - enabled: 1
+    path: Assets/Scenes/River Scene.unity
+    guid: 1bc715a6272d4408fb7e4b4418f810c3
+  - enabled: 1
+    path: Assets/Scenes/Shark Scene.unity
+    guid: 1e539d2a3f6d94569b2040a9afd9462c
+  - enabled: 1
+    path: Assets/Scenes/Tree Scene.unity
+    guid: f279a07afbb1b4f7fb5001e298d61a81
+  - enabled: 1
+    path: Assets/Scenes/Limbo Scene.unity
+    guid: 4638dd50e0f3c4802a5171bd085c191d
+  - enabled: 1
+    path: Assets/Scenes/Ztest Scene.unity
+    guid: 5ea056efb4dfe48129313e89725e750f

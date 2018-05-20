@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 82443ef4752174add96c4171f57dd2a8
+timeCreated: 1515282145
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Wiz1
+    21300002: Wiz2
+    21300004: Wiz3
+    21300006: Wiz4
+    21300008: Wiz5
+    21300010: Wiz6
+    21300012: Wiz7
+    21300014: Wiz8
+    21300016: Wiz9
+    21300018: Wiz10
+    21300020: Wiz11
+    21300022: Wiz12
+    21300024: Wiz13
+    21300026: Char_WizPirate_13
+    21300028: Char_WizPirate_14
+    21300030: Char_WizPirate_0
+    21300032: Char_WizPirate_1
+    21300034: Char_WizPirate_2
+    21300036: Char_WizPirate_3
+    21300038: Char_WizPirate_4
+    21300040: Char_WizPirate_5
+    21300042: Char_WizPirate_6
+    21300044: Char_WizPirate_7
+    21300046: Char_WizPirate_8
+    21300048: Char_WizPirate_9
+    21300050: Char_WizPirate_10
+    21300052: Char_WizPirate_11
+    21300054: Char_WizPirate_12
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Char_WizPirate_0
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4496
+        width: 399
+        height: 1312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_1
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 4496
+        width: 413
+        height: 1341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_2
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 4370
+        width: 597
+        height: 1490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_3
+      rect:
+        serializedVersion: 2
+        x: 4780
+        y: 4496
+        width: 773
+        height: 1329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_4
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2996
+        width: 578
+        height: 1329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_5
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 2996
+        width: 501
+        height: 1341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_6
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 2996
+        width: 403
+        height: 1312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_7
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 2996
+        width: 399
+        height: 1312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_8
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1496
+        width: 413
+        height: 1341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_9
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1384
+        width: 538
+        height: 1476
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_10
+      rect:
+        serializedVersion: 2
+        x: 3457
+        y: 1496
+        width: 596
+        height: 1327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_11
+      rect:
+        serializedVersion: 2
+        x: 4871
+        y: 1496
+        width: 562
+        height: 1327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Char_WizPirate_12
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 413
+        height: 1323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
