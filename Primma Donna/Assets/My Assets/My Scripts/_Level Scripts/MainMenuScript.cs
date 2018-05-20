@@ -20,11 +20,11 @@ public class MainMenuScript : MonoBehaviour
 
 		if (savedState.debugMode)
 		{
-			savedState.ui.counterInput.enableInputField(doThis.doThisOnTrue, new string[] {"fire", "cactus", "river", "tree", "shark", "ztest"});
+			savedState.ui.counterInput.enableInputField(doThis.doThisAction, new string[] {"fire", "cactus", "river", "tree", "shark", "ztest"});
 		}
 		else
 		{
-			savedState.ui.counterInput.enableInputField(doThis.doThisOnTrue, new string[] {"start"});
+			savedState.ui.counterInput.enableInputField(doThis.doThisAction, new string[] {"start"});
 		}
 		savedState.ui.toMainMenuDisplay();
 

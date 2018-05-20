@@ -13,7 +13,7 @@ public class LoadLevelAction : ActionToDo
 		StartCoroutine(LoadStateSaver());
 	}
 
-	public override void doThisOnTrue()
+	public override void doThisAction()
 	{
 		savedState.playerHandler.playerController.runSpeed = 1.0f;
 		savedState.defaultRunningSpeed = 1.0f;

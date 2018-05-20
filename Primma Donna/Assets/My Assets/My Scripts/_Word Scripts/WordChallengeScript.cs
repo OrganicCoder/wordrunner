@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets._2D;
 
+// Refactor to StartWordChallenge?
 public class WordChallengeScript : MonoBehaviour
 {
 	public delegate void actionIfTrue();
 
-	ObstacleType thisObstacle;
 	StateSaver savedState;
 	private bool isFirstTime;
 
 	public ActionToDo thisAction;
+	public ObstacleType thisObstacle;
 
 	void Awake()
 	{
 		isFirstTime = false;
-		thisObstacle = gameObject.transform.parent.GetComponent(typeof(ObstacleType)) as ObstacleType;
 		savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
 	}
 
@@ -29,7 +29,7 @@ public class WordChallengeScript : MonoBehaviour
 				isFirstTime = true;
 				savedState.ui.counterInput.resetAttempts();
 			}
-			savedState.ui.counterInput.enableInputField(thisAction.doThisOnTrue, savedState.obstacleDictionary[thisObstacle.ObstacleName]);
+			savedState.ui.counterInput.enableInputField(thisAction.doThisAction, savedState.obstacleDictionary[thisObstacle.ObstacleName]);
 			savedState.ui.counterInput.displayHint();
 		}
 	}

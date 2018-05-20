@@ -39,7 +39,7 @@ public class ObstacleManager : ActionToDo
   }
 
 
-  public override void doThisOnTrue()
+  public override void doThisAction()
   {
     savedState.ui.counterInput.hangInputField();
     failedChallenge = false;

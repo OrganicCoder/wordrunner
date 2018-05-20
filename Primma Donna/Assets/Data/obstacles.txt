@@ -3,3 +3,4 @@ fire:water|aqua
 shark:shelter|cage
 tree:hew|chop
 cactus:shear|shave
+pit:jump|leap
