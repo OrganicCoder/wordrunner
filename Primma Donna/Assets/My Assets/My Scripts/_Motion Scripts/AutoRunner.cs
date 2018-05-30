@@ -1,34 +1,36 @@
 using UnityEngine;
-using UnityStandardAssets._2D;
 
-[RequireComponent(typeof (PlatformerCharacter2D))]
-public class AutoRunner: MonoBehaviour
+namespace UnityStandardAssets._2D
 {
-  PlatformerCharacter2D character;
-  StateSaver savedState;
-  bool jump;
-  public float runSpeed;
-
-  void Awake()
+  [RequireComponent(typeof (PlatformerCharacter2D))]
+  public class AutoRunner: MonoBehaviour
   {
-    character = GetComponent<PlatformerCharacter2D>();
-    savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
-    runSpeed = savedState.defaultRunningSpeed;
-  }
+    PlatformerCharacter2D character;
+    StateSaver savedState;
+    bool jump;
+    public float runSpeed;
 
-  void FixedUpdate()
-  {
-    // Pass all parameters to the character control script.
-    character.Move(runSpeed, false, jump);
-    jump = false;
-  }
-
-  void OnTriggerEnter2D(Collider2D other)
-  {
-    if (other.tag == "JumpZone")
+    void Awake()
     {
-      runSpeed = .5f;
-      jump = true;
+      character = GetComponent<PlatformerCharacter2D>();
+      savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
+      runSpeed = savedState.defaultRunningSpeed;
+    }
+
+    void FixedUpdate()
+    {
+      // Pass all parameters to the character control script.
+      character.Move(runSpeed, false, jump);
+      jump = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+      if (other.tag == "JumpZone")
+      {
+        runSpeed = .5f;
+        jump = true;
+      }
     }
   }
 }

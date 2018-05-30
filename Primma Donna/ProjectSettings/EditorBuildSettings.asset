@@ -32,6 +32,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Limbo Scene.unity
     guid: 4638dd50e0f3c4802a5171bd085c191d
-  - enabled: 1
-    path: Assets/Scenes/Ztest Scene.unity
-    guid: 5ea056efb4dfe48129313e89725e750f

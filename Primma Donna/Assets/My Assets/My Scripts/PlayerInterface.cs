@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerInterface : MonoBehaviour
+namespace UnityStandardAssets._2D
 {
-	public AutoRunner playerController;
-	public GameObject thisPlayer;
-
-	public void dontDestroyOnLoad()
+	public class PlayerInterface : MonoBehaviour
 	{
-		DontDestroyOnLoad(this);
+		public AutoRunner playerController;
+		public GameObject thisPlayer;
+
+		public void dontDestroyOnLoad()
+		{
+			DontDestroyOnLoad(this);
+		}
 	}
 }

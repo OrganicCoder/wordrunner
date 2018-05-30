@@ -2,22 +2,25 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DebugScript : MonoBehaviour
+namespace UnityStandardAssets._2D
 {
-  public GameObject targetPoint;
-  StateSaver savedState;
-
-  void Awake()
+  public class DebugScript : MonoBehaviour
   {
-      savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
-  }
+    public GameObject targetPoint;
+    StateSaver savedState;
 
-  private void OnTriggerEnter2D(Collider2D other)
-  {
-    if (other.tag == "Player")
+    void Awake()
     {
-      savedState.player.transform.SetPositionAndRotation(targetPoint.transform.position, targetPoint.transform.rotation);
-      savedState.playerHandler.playerController.runSpeed = savedState.defaultRunningSpeed;
+        savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+      if (other.tag == "Player")
+      {
+        savedState.player.transform.SetPositionAndRotation(targetPoint.transform.position, targetPoint.transform.rotation);
+        savedState.playerHandler.playerController.runSpeed = savedState.defaultRunningSpeed;
+      }
     }
   }
 }

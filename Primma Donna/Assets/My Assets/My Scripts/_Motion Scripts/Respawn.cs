@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 
-public class Respawn : MonoBehaviour
+namespace UnityStandardAssets._2D
 {
-	public GameObject moveObject;
-	public GameObject targetPoint;
-
-	void OnTriggerEnter2D(Collider2D other)
+	public class Respawn : MonoBehaviour
 	{
-		if (other.tag == "Player")
+		public GameObject moveObject;
+		public GameObject targetPoint;
+
+		void OnTriggerEnter2D(Collider2D other)
 		{
-			moveObject.transform.SetPositionAndRotation(targetPoint.transform.position, targetPoint.transform.rotation);
+			if (other.tag == "Player")
+			{
+				moveObject.transform.SetPositionAndRotation(targetPoint.transform.position, targetPoint.transform.rotation);
+			}
 		}
 	}
 }

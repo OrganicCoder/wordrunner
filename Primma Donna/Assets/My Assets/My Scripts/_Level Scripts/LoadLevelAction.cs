@@ -10,7 +10,7 @@ public class LoadLevelAction : ActionToDo
 
 	void Awake()
 	{
-		StartCoroutine(LoadStateSaver());
+		savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
 	}
 
 	public override void doThisOnTrue()
@@ -31,11 +31,5 @@ public class LoadLevelAction : ActionToDo
 		{
 			SceneManager.LoadScene("Words Scene v0.0005", LoadSceneMode.Single);
 		}
-	}
-
-	private IEnumerator LoadStateSaver()
-	{
-		savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
-		yield return new WaitUntil(() => savedState != null);
 	}
 }

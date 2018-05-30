@@ -3,56 +3,59 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class StateSaver : MonoBehaviour
+namespace UnityStandardAssets._2D
 {
-		// Carryover Resources
-	public static Queue<string> shuffledObstacleQueue;
-	public Color previousSceneBackgroundColor;
-	public Color nextSceneBackgroundColor;
-
-		// System Resources
-	public Dictionary<String, String[]> obstacleDictionary;
-	public ScoreStorage score;
-	public UiElements ui;
-	public PlayerInterface playerHandler;
-
-		// Game settings
-	public float defaultRunningSpeed = 1.0f;
-	public bool debugMode;
-
-	public GameObject player
+	public class StateSaver : MonoBehaviour
 	{
-		get
-		{
-			return playerHandler.thisPlayer;
-		}
-	}
+			// Carryover Resources
+		public static Queue<string> shuffledObstacleQueue;
+		public Color previousSceneBackgroundColor;
+		public Color nextSceneBackgroundColor;
 
-	void Start ()
-	{
-		// Retrieve obstacle dictionary.
-		if(obstacleDictionary == null)
+			// System Resources
+		public Dictionary<String, String[]> obstacleDictionary;
+		public ScoreStorage score;
+		public UiElements ui; 
+		public PlayerInterface playerHandler;
+
+			// Game settings
+		public float defaultRunningSpeed = 1.0f;
+		public bool debugMode;
+
+		public GameObject player
 		{
-			obstacleDictionary = GenericReader.GetObstacles();
-			Debug.Log("Updated obstacleDictionary.");
+			get
+			{
+				return playerHandler.thisPlayer;
+			}
 		}
 
-		// Retrieve obstacle queue.
-		if(shuffledObstacleQueue == null || shuffledObstacleQueue.Count == 0)
+		void Start ()
 		{
-			Debug.Log("shuffledObstacleQueue is empty (or null). Updating...");
+			// Retrieve obstacle dictionary.
+			if(obstacleDictionary == null)
+			{
+				obstacleDictionary = GenericReader.GetObstacles();
+				Debug.Log("Updated obstacleDictionary.");
+			}
+
+			// Retrieve obstacle queue.
+			if(shuffledObstacleQueue == null || shuffledObstacleQueue.Count == 0)
+			{
+				Debug.Log("shuffledObstacleQueue is empty (or null). Updating...");
+				shuffledObstacleQueue = ScrambleObstacles.GenerateShuffledObstacleQueue();
+			}
+		}
+
+		public static void RescrambleObstacles()
+		{
 			shuffledObstacleQueue = ScrambleObstacles.GenerateShuffledObstacleQueue();
+			Debug.Log("Obstacles Scrambled.");
 		}
-	}
 
-	public static void RescrambleObstacles()
-	{
-		shuffledObstacleQueue = ScrambleObstacles.GenerateShuffledObstacleQueue();
-		Debug.Log("Obstacles Scrambled.");
-	}
-
-	public void dontDestroyOnLoad()
-	{
-		DontDestroyOnLoad(this);
+		public void dontDestroyOnLoad()
+		{
+			DontDestroyOnLoad(this);
+		}
 	}
 }

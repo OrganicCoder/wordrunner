@@ -1,29 +1,32 @@
 using System;
 using UnityEngine;
 
-public class WordBoxGenerator : MonoBehaviour
+namespace UnityStandardAssets._2D
 {
-    StateSaver savedState;
-
-    void Awake()
+    public class WordBoxGenerator : MonoBehaviour
     {
-        savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
-    }
+        StateSaver savedState;
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Player")
+        void Awake()
         {
-            try
+            savedState = (GameObject.FindWithTag("StateSaver")).GetComponent(typeof(StateSaver)) as StateSaver;
+        }
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.tag == "Player")
             {
-                savedState.ui.counterInput.enableInputField();
+                try
+                {
+                    savedState.ui.counterInput.enableInputField();
+                }
+                catch (NullReferenceException e)
+                {
+                    Debug.LogError("StateSaver's \"Placeholder\" property may not be set properly. The 'Placeholder' in 'Counter Attack Input' should be dragged into the StateSaver's \"Placeholder\" field.");
+                    Debug.LogError(e.ToString());
+                }
+              //  savedState.counterInput.ActivateInputField();
             }
-            catch (NullReferenceException e)
-            {
-                Debug.LogError("StateSaver's \"Placeholder\" property may not be set properly. The 'Placeholder' in 'Counter Attack Input' should be dragged into the StateSaver's \"Placeholder\" field.");
-                Debug.LogError(e.ToString());
-            }
-          //  savedState.counterInput.ActivateInputField();
         }
     }
 }

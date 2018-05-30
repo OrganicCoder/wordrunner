@@ -1597,7 +1597,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 114875887316906018}
-  inputController: {fileID: 114952540439821348}
 --- !u!114 &114026375525130548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2943,7 +2942,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   display: {fileID: 114875887316906018}
-  hints: {fileID: 114026019689374896}
 --- !u!114 &114956030175985984
 MonoBehaviour:
   m_ObjectHideFlags: 1
