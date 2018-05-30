@@ -1,6 +1,6 @@
 ## Aweful Falafel Waffle 
 
-To put it simply --> https://github.com/OrganicCoder/wordrunner/edit/master/README.md 
+To put it simply: 
 
 - We're prototyping a side scroller game. 
 - The character runs and jumps on it's own (for now).
