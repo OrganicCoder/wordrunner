@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+## Aweful Falafel Waffle 
 
-You can use the [editor on GitHub](https://github.com/OrganicCoder/wordrunner/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+To put it simply --> https://github.com/OrganicCoder/wordrunner/edit/master/README.md 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- We're prototyping a side scroller game. 
+- The character runs and jumps on it's own (for now).
+- To attack (or get around - #euphemisms) the obstacle, you have to use your words.
+- Scratch that...
+- You have to use the words that we present to you at the beginning of the game.
+- The score is based on the number of attempts it takes to get around an obstacle.
+- You will get a hint if you don't get the word correctly... 
+- Hint: It'll be displayed on the input bar!
 
-### Markdown
+Your valuable feedback is... valuable. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Start The Game
 
-```markdown
-Syntax highlighted code block
+Type start to start.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Words Scene
 
-1. Numbered
-2. List
+- The words displayed here will be the words you use on the obstacles. 
+- One word per obstacle. 
+- For example: you can use "oil" (the attack) on "fire" (the obstacle). Just kidding, don't use oil. 
 
-**Bold** and _Italic_ and `Code` text
+### THE Scene
 
-[Link](url) and ![Image](src)
-```
+- The character will run and jump.
+- Once the character approaches an obstacle, slow-mo mode will be activated, and that'll be your cue to guess which word to use on the given obstacle. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### The Byes
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OrganicCoder/wordrunner/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+After the character has gone through all the scenes, your final score will be presented.
+- As of now, there are 5 scenes to complete.
+- Expansion pack will take place post prototype phase!
