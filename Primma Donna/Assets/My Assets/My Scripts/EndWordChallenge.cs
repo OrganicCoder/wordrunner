@@ -10,7 +10,7 @@ public class EndWordChallenge : MonoBehaviour
 
 	void Awake()
 	{
-		passedChallenge = false;
+	//	passedChallenge = false;
 	}
 
 	// pretty big refactor is necessary
