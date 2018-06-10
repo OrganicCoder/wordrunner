@@ -1,0 +1,77 @@
+﻿[
+  {
+    "obstacle": "river",
+    "counterObject": {
+      "name": "vessel",
+      "rgbaBackgroundColor": "#AA77FF00",
+      "definition": "a ship or large boat.",
+      "sentence": "the vessel will carry us across the sea.",
+      "rank": 974,
+      "gradeLevel": "Elementary",
+      "synonyms": [
+        "ship",
+        "boat"
+      ]
+    }
+  },
+  {
+    "obstacle": "fire",
+    "counterObject": {
+      "name": "",
+      "rgbaBackgroundColor": "#",
+      "definition": ".",
+      "sentence": ".",
+      "rank": null,
+      "gradeLevel": "",
+      "synonyms": [
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "obstacle": "shark",
+    "counterObject": {
+      "name": "",
+      "rgbaBackgroundColor": "#",
+      "definition": ".",
+      "sentence": ".",
+      "rank": null,
+      "gradeLevel": "",
+      "synonyms": [
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "obstacle": "river",
+    "counterObject": {
+      "name": "",
+      "rgbaBackgroundColor": "#",
+      "definition": ".",
+      "sentence": ".",
+      "rank": null,
+      "gradeLevel": "",
+      "synonyms": [
+        "",
+        ""
+      ]
+    }
+  },
+  {
+    "obstacle": "cactus",
+    "counterObject": {
+      "name": "",
+      "rgbaBackgroundColor": "#",
+      "definition": ".",
+      "sentence": ".",
+      "rank": null,
+      "gradeLevel": "",
+      "synonyms": [
+        "",
+        ""
+      ]
+    }
+  }
+]
