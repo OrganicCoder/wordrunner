@@ -1,0 +1,22 @@
+{
+  "hew": {
+    "definition": "chop or cut with an axe",
+    "sentence": "they will hew the timber in the forest"
+  },
+  "shear": {
+    "definition": "cut off (something such as hair, wool, or grass), with scissors",
+    "sentence": "the spines were sheared off of the cactus"
+  },
+  "shelter": {
+    "definition": "a place giving temporary protection from bad weather or danger",
+    "sentence": "we must find shelter to be safe from the storm"
+  },
+  "vessel": {
+    "definition": "a ship or large boat",
+    "sentence": "his vessel will carry us across the sea"
+  },
+  "water": {
+    "definition": "a colorless, transparent liquid that forms the seas",
+    "sentence": "the bucket of water put out the fire"
+  }
+}

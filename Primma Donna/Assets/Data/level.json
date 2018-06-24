@@ -1,0 +1,22 @@
+{
+  "cactus": {
+    "rgbaBackgroundColor": "#03A9F400",
+    "counter": "shear"
+  },
+  "fire": {
+    "rgbaBackgroundColor": "#F4433600",
+    "counter": "water"
+  },
+  "river": {
+    "rgbaBackgroundColor": "#AA77FF00",
+    "counter": "vessel"
+  },
+  "shark": {
+    "rgbaBackgroundColor": "#3F51B500",
+    "counter": "shelter"
+  },
+  "tree": {
+    "rgbaBackgroundColor": "#21963F00",
+    "counter": "hew"
+  }
+}

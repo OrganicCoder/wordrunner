@@ -1,5 +1,0 @@
-river:vessel|ship
-fire:water|agua
-shark:shelter|cage
-tree:hew|chop
-cactus:shear|shave
