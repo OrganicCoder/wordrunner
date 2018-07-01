@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -7,31 +8,35 @@ namespace UnityStandardAssets._2D
 {
     public class GenericReader : MonoBehaviour
 	{
-
+        private const string LEVEL_FILE_NAME = "level.json";
+        private const string WORD_FILE_NAME = "word.json";
+        
+        // TODO: Remove these constants
         private const string COLORS_FILE_NAME = "background-colors.txt";
         private const string DICTIONARY_FILE_NAME = "dictionary.txt";
         private const string OBSTACLES_FILE_NAME = "obstacles.txt";
         private const string SENTENCES_FILE_NAME = "sentences.txt";
 
-
         public static Dictionary<String, String[]> GetDictionary()
         {
+            // TODO: Refactor
             return GetDictionaryByFilename(DICTIONARY_FILE_NAME);
         }
 
         public static Dictionary<String, String[]> GetSentences()
         {
+            // TODO: Refactor
             return GetDictionaryByFilename(SENTENCES_FILE_NAME);
         }
 
         public static Dictionary<String, String[]> GetObstacles()
         {
+            // TODO: Refactor
             return GetDictionaryByFilename(OBSTACLES_FILE_NAME);
         }
 
         public static bool isValidFileName(string fileName)
         {
-            // Check for valid file name.
             if(fileName == null)
             {
                 Debug.LogError("\"fileName\" is null. No dictionary returned.");
