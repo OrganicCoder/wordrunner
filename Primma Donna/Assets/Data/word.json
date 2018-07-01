@@ -1,22 +1,37 @@
-{
-  "hew": {
+[
+  {
+    "word": "hew",
     "definition": "chop or cut with an axe",
-    "sentence": "they will hew the timber in the forest"
+    "sentence": "they will hew the timber in the forest",
+    "rank": 0,
+    "gradeLevel": ""
   },
-  "shear": {
+  {
+    "word": "shear",
     "definition": "cut off (something such as hair, wool, or grass), with scissors",
-    "sentence": "the spines were sheared off of the cactus"
+    "sentence": "the spines were sheared off of the cactus",
+    "rank": 0,
+    "gradeLevel": ""
   },
-  "shelter": {
+  {
+    "word": "shelter",
     "definition": "a place giving temporary protection from bad weather or danger",
-    "sentence": "we must find shelter to be safe from the storm"
+    "sentence": "we must find shelter to be safe from the storm",
+    "rank": 0,
+    "gradeLevel": ""
   },
-  "vessel": {
+  {
+    "word": "vessel",
     "definition": "a ship or large boat",
-    "sentence": "his vessel will carry us across the sea"
+    "sentence": "his vessel will carry us across the sea",
+    "rank": 0,
+    "gradeLevel": ""
   },
-  "water": {
+  {
+    "word": "water",
     "definition": "a colorless, transparent liquid that forms the seas",
-    "sentence": "the bucket of water put out the fire"
+    "sentence": "the bucket of water put out the fire",
+    "rank": 0,
+    "gradeLevel": ""
   }
-}
+]

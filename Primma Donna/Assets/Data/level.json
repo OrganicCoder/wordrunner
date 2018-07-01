@@ -1,22 +1,27 @@
-{
-  "cactus": {
-    "rgbaBackgroundColor": "#03A9F400",
+[
+  {
+    "level": "cactus",
+    "backgroundColor": "#03A9F400",
     "counter": "shear"
   },
-  "fire": {
-    "rgbaBackgroundColor": "#F4433600",
+  {
+    "level": "fire",
+    "backgroundColor": "#F4433600",
     "counter": "water"
   },
-  "river": {
-    "rgbaBackgroundColor": "#AA77FF00",
+  {
+    "level": "river",
+    "backgroundColor": "#AA77FF00",
     "counter": "vessel"
   },
-  "shark": {
-    "rgbaBackgroundColor": "#3F51B500",
+  {
+    "level": "shark",
+    "backgroundColor": "#3F51B500",
     "counter": "shelter"
   },
-  "tree": {
-    "rgbaBackgroundColor": "#21963F00",
+  {
+    "level": "tree",
+    "backgroundColor": "#21963F00",
     "counter": "hew"
   }
-}
+]
