@@ -10,17 +10,21 @@ namespace UnityStandardAssets._2D
 	{
         private const string LEVEL_FILE_NAME = "level.json";
         private const string WORD_FILE_NAME = "word.json";
-        
-        // TODO: Remove these constants
-        private const string COLORS_FILE_NAME = "background-colors.txt";
-        private const string DICTIONARY_FILE_NAME = "dictionary.txt";
-        private const string OBSTACLES_FILE_NAME = "obstacles.txt";
-        private const string SENTENCES_FILE_NAME = "sentences.txt";
 
+        // TODO: Refactor
         public static Dictionary<String, String[]> GetDictionary()
         {
-            // TODO: Refactor
-            return GetDictionaryByFilename(DICTIONARY_FILE_NAME);
+            // Open file
+            string fileLocation = Application.dataPath + @"/Data/" + WORD_FILE_NAME;
+
+            // Read file text
+            string fileContent = File.ReadAllText(fileLocation);
+
+            // Deserealize
+            var words = JsonConverter.DeserealizeObject<List<Word>>(fileContent);
+
+            // TODO: Iterate over each words and create an entry in the dictionary
+           
         }
 
         public static Dictionary<String, String[]> GetSentences()
